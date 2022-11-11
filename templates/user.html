@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tonic-MediaShare, written with gin">
+    <link rel="stylesheet" href="/assets/w3.css">
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/assets/theme.css">
+    <title>{{.title}}</title>
+</head>
+<body>
+<div class="center-container">
+    <div class="w3-card-4">
+        <header class="w3-container w3-theme-d1">
+            <p class="w3-xlarge">Hello {{.user}},</p>
+        </header>
+        <div class="w3-container">
+            <p class="w3-medium">Your Credentials are</p>
+            <p class="w3-medium">Name: {{.user}}</p>
+            <p class="w3-medium">Password: {{.code}}</p>
+        </div>
+        <a class="w3-button w3-block w3-dark-grey w3-large">Use Authorization Header Value "{{.user}} {{.code}}"</a>
+    </div>
+</div>
+</body>
+</html>

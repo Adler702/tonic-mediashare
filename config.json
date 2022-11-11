@@ -1,0 +1,8 @@
+{
+  "port": 5000,
+  "baseurl": "http://base.url.url",
+  "mongourl": "mongodb://name:password@host:27017/",
+  "discordclientid": "discordclientid",
+  "discordclientsecret": "discordclientsecret",
+  "discordsecretstate": "discordsecretstate"
+}
